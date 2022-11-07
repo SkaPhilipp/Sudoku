@@ -1,7 +1,7 @@
 import xlrd
 
 
-# read excel input
+# read excel input 
 input_file = ("sudoku_input.xls")
 workbook = xlrd.open_workbook(input_file)
 worksheet = workbook.sheet_by_index(0)
